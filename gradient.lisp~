@@ -1,0 +1,16 @@
+;;;;gradient.lisp
+;;;;
+;;;;simple gradient functions for learning graphics
+(in-package :ray-tracer)
+
+(defclass hue ()
+  (red   :initarg :red
+         :accessor red)
+  (green :initarg :green
+         :accessor green)
+  (blue  :initarg :blue
+         :accessor blue)
+  (alpha :intiarg :alpha
+         :accessor alpha))
+
+(defun draw-gradient (
