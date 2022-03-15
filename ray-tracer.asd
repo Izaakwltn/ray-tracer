@@ -10,4 +10,6 @@
   :depends-on (#:zpng)
   :serial t
   :components ((:file "package")
-	       (:file "draw")))
+	       (:file "vectors")
+	       (:file "draw")
+	       (:file "gradient")))
